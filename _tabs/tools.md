@@ -50,7 +50,7 @@ order: 4
 1. <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3S</a>
 2. <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN</a>
 3. <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS Tricks</a>
-4. <a href="http://web.dev/" target="_blank" rel="noopener noreferrer">Web.dev</a>
+4. <a href="https://web.dev/" target="_blank" rel="noopener noreferrer">Web.dev</a>
 5. <a href="https://htmlreference.io/" target="_blank" rel="noopener noreferrer">HTML Reference</a>
 6. <a href="https://cssreference.io/" target="_blank" rel="noopener noreferrer">CSS Reference</a>
 7. <a href="https://marksheet.io/" target="_blank" rel="noopener noreferrer">Marksheet.io</a>
