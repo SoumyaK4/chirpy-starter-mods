@@ -17,6 +17,7 @@ order: 4
 4. <a href="https://undraw.co/illustrations" target="_blank" rel="noopener noreferrer">Undraw</a>
 5. <a href="https://favicon.io/" target="_blank" rel="noopener noreferrer">Favicon</a>
 6. <a href="https://cloudconvert.com/" target="_blank" rel="noopener noreferrer">CloudConvert</a>
+7. <a href="https://svgl.app/" target="_blank" rel="noopener noreferrer">SVG App</a>
 
 ## Site Tools
 
