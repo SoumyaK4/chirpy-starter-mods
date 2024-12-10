@@ -51,8 +51,8 @@ ToC <br>
 9. <a href="https://easingwizard.com/" target="_blank" rel="noopener noreferrer">CSS Easing Wizard</a>
 10. <a href="https://tinywow.com/" target="_blank" rel="noopener noreferrer">TinyWoW</a>
 11. <a href="https://pagescms.org/" target="_blank" rel="noopener noreferrer">CMS for SSG</a> : <a href="https://github.com/pages-cms/jekyll-blog-example" target="_blank" rel="noopener noreferrer">Template</a>
-12. <a href="" target="_blank" rel="noopener noreferrer"></a>
-13. <a href="" target="_blank" rel="noopener noreferrer"></a>
+<!--12. <a href="" target="_blank" rel="noopener noreferrer"></a>
+13. <a href="" target="_blank" rel="noopener noreferrer"></a>-->
 
 ### Learning Tools
 
@@ -71,4 +71,4 @@ ToC <br>
 11. <a href="https://jgthms.com/javascript-in-14-minutes/" target="_blank" rel="noopener noreferrer">JS in 14 Minutes</a>
 12. <a href="https://andreasbm.github.io/web-skills/" target="_blank" rel="noopener noreferrer">How to Learn Web Skills</a>
 13. <a href="https://free-for.dev/#/" target="_blank" rel="noopener noreferrer">Free for Dev</a>
-14. <a href="" target="_blank" rel="noopener noreferrer"></a>
+<!--14. <a href="" target="_blank" rel="noopener noreferrer"></a>-->
