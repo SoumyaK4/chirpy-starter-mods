@@ -51,6 +51,7 @@ ToC <br>
 9. <a href="https://easingwizard.com/" target="_blank" rel="noopener noreferrer">CSS Easing Wizard</a>
 10. <a href="https://tinywow.com/" target="_blank" rel="noopener noreferrer">TinyWoW</a>
 11. <a href="https://pagescms.org/" target="_blank" rel="noopener noreferrer">CMS for SSG</a> : <a href="https://github.com/pages-cms/jekyll-blog-example" target="_blank" rel="noopener noreferrer">Template</a>
+12. <a href="https://github.dev" target="_blank" rel="noopener noreferrer">Github.dev</a> & <a href="https://igx.google.com" target="_blank" rel="noopener noreferrer">Google IDX</a> for Firebase projects 
 
 ### Learning Tools
 
