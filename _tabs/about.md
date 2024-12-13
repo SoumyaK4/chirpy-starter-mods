@@ -14,5 +14,3 @@ order: 4
 
 <div id="tools"></div>
 
-<!-- <button id="install-pwa-btn" style="display: none;">Install App</button> -->
-<!-- <script src="/assets/js/pwa-prompt.js" defer></script> -->
