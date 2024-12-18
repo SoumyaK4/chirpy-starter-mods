@@ -6,9 +6,9 @@
 # - type: twitter
 #  icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
 
 - type: instagram
   icon: "fab fa-instagram"
@@ -17,6 +17,11 @@
 - type: youtube
   icon: "fab fa-youtube"
   url: "https://youtube.com/@soumyak4"
+
+- type: website
+  icon: "fas fa-s"
+  url: "https://soumyak4.in"
+  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 #

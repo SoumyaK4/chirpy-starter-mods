@@ -21,6 +21,8 @@ ToC <br>
 6. <a href="https://cloudconvert.com/" target="_blank" rel="noopener noreferrer">CloudConvert</a>
 7. <a href="https://svgl.app/" target="_blank" rel="noopener noreferrer">SVG App</a>
 8. <a href="https://www.shots.so/" target="_blank" rel="noopener noreferrer">ScreenShots Mockup</a>
+9. <a href="https://excalidraw.com/" target="_blank" rel="noopener noreferrer">ExcaliDraw</a>
+10. <a href="https://websitemockupgenerator.com/" target="_blank" rel="noopener noreferrer">websitemockupgenerator</a>
 
 ## Site Tools
 
@@ -37,6 +39,7 @@ ToC <br>
 7. <a href="https://seo.ai/tools/google-website-rank-checker" target="_blank" rel="noopener noreferrer"> SEO AI</a>
 8. <a href="https://www.keyword-tools.org/en/google-ranking-live-check/" target="_blank"
     rel="noopener noreferrer">Keyword Tools</a>
+9. <a href="https://www.xml-sitemaps.com/" target="_blank" rel="noopener noreferrer">Sitemap Gen</a>
 
 ### Other Tools
 

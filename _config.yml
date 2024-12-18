@@ -14,25 +14,22 @@ timezone: Asia/Calcutta
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy Mods # the main title
+title: Jekyll Mods # the main title
 
-tagline: Chirpy Jekyll Mods by SoumyaK4 # it will display as the subtitle
+tagline: by SoumyaK4 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  This contains all modifications on Chirpy Jekyll theme.
+  Modifications on Jekyll Themes, mainly Chirpy
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://chirpy.soumyak4.in"
 
+# to show future dated posts
 future: true
 
 github:
   username: SoumyaK4 # change to your GitHub username
-instagram:
-  username: SoumyaK4_ # change to your Twitter username
-youtube:
-  username: SoumyaK4_ # change to your Twitter username
 
 social:
   # Change to your full name.
