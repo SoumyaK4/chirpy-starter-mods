@@ -44,7 +44,7 @@ ToC <br>
 ### Other Tools
 
 1. <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">W3C Nu Markup Validator</a>
-2. <a href="https://www.diffchecker.com/" target="_blank" rel="noopener noreferrer">Diff Checker</a>
+2. <a href="https://diffcheck.io/" target="_blank" rel="noopener noreferrer">DiffCheck.io</a>
 3. <a href="https://flexboxlabs.netlify.app/" target="_blank" rel="noopener noreferrer">Flexbox Labs</a>
 4. <a href="https://regex101.com/" target="_blank" rel="noopener noreferrer">Regex101</a>
 5. <a href="https://tinywow.com/" target="_blank" rel="noopener noreferrer">Tiny Wow</a>
