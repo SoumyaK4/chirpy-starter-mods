@@ -1,14 +1,11 @@
 ---
 # the default layout is 'page'
+layout: post
 icon: fas fa-tools
 order: 4
+toc: true
 ---
 
-ToC <br>
-[Graphics]({{site.url}}/tools/#graphics) <br>
-[SEO]({{site.url}}/tools/#seo) <br>
-[Other Tools]({{site.url}}/tools/#other-tools) <br>
-[Learning Tools]({{site.url}}/tools/#learning-tools) <br>
 <hr>
 
 ## Graphics
@@ -21,12 +18,16 @@ ToC <br>
 6. <a href="https://cloudconvert.com/" target="_blank" rel="noopener noreferrer">CloudConvert</a>
 7. <a href="https://svgl.app/" target="_blank" rel="noopener noreferrer">SVG App</a>
 8. <a href="https://www.shots.so/" target="_blank" rel="noopener noreferrer">ScreenShots Mockup</a>
-9. <a href="https://excalidraw.com/" target="_blank" rel="noopener noreferrer">ExcaliDraw</a>
-10. <a href="https://websitemockupgenerator.com/" target="_blank" rel="noopener noreferrer">websitemockupgenerator</a>
+   - <a href="https://screenshot.rocks/app" target="_blank" rel="noopener noreferrer">Screenshot Rocks</a>
+9. for Code Screenshots:
+   - <a href="https://chalk.ist/" target="_blank" rel="noopener noreferrer">Chalk</a>
+   - <a href="https://carbon.now.sh/" target="_blank" rel="noopener noreferrer">Carbon</a>
+     - <a href="https://www.animate-code.com/" target="_blank" rel="noopener noreferrer">Animate Code</a>
+10. <a href="https://excalidraw.com/" target="_blank" rel="noopener noreferrer">ExcaliDraw</a>
+11. <a href="https://websitemockupgenerator.com/" target="_blank" rel="noopener noreferrer">websitemockupgenerator</a>
+12. <a href="https://qrframe.kylezhe.ng/" target="_blank" rel="noopener noreferrer">QR Frame</a>
 
-## Site Tools
-
-### SEO
+## SEO
 
 1. <a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="noopener noreferrer">Google Webmaster
     Tools</a>
@@ -41,7 +42,7 @@ ToC <br>
     rel="noopener noreferrer">Keyword Tools</a>
 9. <a href="https://www.xml-sitemaps.com/" target="_blank" rel="noopener noreferrer">Sitemap Gen</a>
 
-### Other Tools
+## Other Tools
 
 1. <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">W3C Nu Markup Validator</a>
 2. <a href="https://diffcheck.io/" target="_blank" rel="noopener noreferrer">DiffCheck.io</a>
@@ -55,8 +56,11 @@ ToC <br>
 10. <a href="https://tinywow.com/" target="_blank" rel="noopener noreferrer">TinyWoW</a>
 11. <a href="https://pagescms.org/" target="_blank" rel="noopener noreferrer">CMS for SSG</a> : <a href="https://github.com/pages-cms/jekyll-blog-example" target="_blank" rel="noopener noreferrer">Template</a>
 12. <a href="https://github.dev" target="_blank" rel="noopener noreferrer">Github.dev</a> & <a href="https://igx.google.com" target="_blank" rel="noopener noreferrer">Google IDX</a> for Firebase projects 
+13. <a href="https://choosealicense.com/" target="_blank" rel="noopener noreferrer">Licences</a>
+14. <a href="https://layout.bradwoods.io/" target="_blank" rel="noopener noreferrer">CSS Layout Generator</a>
+15. <a href="https://mailchi.mp/webtoolsweekly/web-tools-586" target="_blank" rel="noopener noreferrer">Web Tools List</a>
 
-### Learning Tools
+## Learning Tools
 
 1. <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3S</a>
 2. <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN</a>
@@ -73,3 +77,4 @@ ToC <br>
 11. <a href="https://jgthms.com/javascript-in-14-minutes/" target="_blank" rel="noopener noreferrer">JS in 14 Minutes</a>
 12. <a href="https://andreasbm.github.io/web-skills/" target="_blank" rel="noopener noreferrer">How to Learn Web Skills</a>
 13. <a href="https://free-for.dev/#/" target="_blank" rel="noopener noreferrer">Free for Dev</a>
+14. <a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank" rel="noopener noreferrer">Conventional Commits</a>
