@@ -7,8 +7,6 @@ order: 7
 
 A comprehensive player management and rating system for the Vietnam Go Association, featuring Glicko2 rating calculations, tournament management, and player profiles.
 
-![Vietnam Go Association](static/assets/logo.svg)
-
 ## Features
 
 - **Player Management:** Create and edit player profiles with personal information and photos
@@ -213,7 +211,7 @@ The system uses visual indicators to help users understand player ratings:
 - 🟢 **Established Rating**: Player has played recently and has a low rating deviation
 - 🟡 **Uncertain Rating**: Player has a moderate rating deviation (>110)
 - 🔴 **High Uncertainty**: Player has a high rating deviation (>350)
-- ⌛ **Inactive Player**: Player hasn't played in over 6 months
+- ⌛ **Inactive/New Player**: Player hasn't played in over 6 months
 
 ### Type Annotations
 
