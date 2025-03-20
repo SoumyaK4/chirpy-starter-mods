@@ -25,7 +25,7 @@ A comprehensive player management and rating system for the Vietnam Go Associati
 - [Installation](#installation)
 - [Admin Guide](#admin-guide)
 - [Developer Guide](#developer-guide)
-- [File Structure](#file-structure)
+- [File Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
