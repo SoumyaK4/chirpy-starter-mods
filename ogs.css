@@ -1,0 +1,84 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+}
+
+.container {
+    max-width: none !important;
+    background: linear-gradient(to bottom right, #000000, #0b040c, #13091a, #181029, #1a1936, #1a2441, #183049, #153c4d, #14494e, #16554a, #1a6045, #236a3d, #307136, #407631, #53792e, #697a30 ,#7f7a36, #957941, #a97851, #ba7964, #c77a7b, #cf7e92, #d384a9, #d48cbf, #d196d1, #cda2e0, #c8afea, #c3bcf0, #c1caf3, #c2d6f2, #c5e0f1, #cde9ef, #d7f1ee, #e4f6f0, #f1fbf5, #ffffff) !important;
+}
+
+.avatar-container .Player-username {
+    font-size: 2em;
+    font-family: "Comic Sans MS", cursive, serif;
+}
+
+h2, h3 {
+    animation:rainbowText 2s infinite;
+}
+@keyframes rainbowText{
+    0%   {  color: #FF0900; }
+    17%  {  color: #FF7F00; }
+    33%  {  color: #FFEF00; }
+    50%  {  color: #00F11D; }
+    67%  {  color: #0079FF; }
+    83%  {  color: #A800FF; }
+    100% {  color: #FF0900; }
+}
+
+.about-container {
+    /* overflow: hidden; */
+    position: relative;
+}
+.about-container h1 {
+    color: limegreen;
+    font-size: 3em;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: scrolling 15s linear infinite;
+    -webkit-animation: scrolling 15s linear infinite;
+    animation: scrolling 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scrolling {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrolling {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrolling {
+     0%   { 
+        -moz-transform: translateX(100%); /* Firefox bug fix */
+        -webkit-transform: translateX(100%); /* Firefox bug fix */
+        transform: translateX(100%); 		
+    }
+    100% { 
+        -moz-transform: translateX(-100%); /* Firefox bug fix */
+        -webkit-transform: translateX(-100%); /* Firefox bug fix */
+        transform: translateX(-100%); 
+    }
+}
+
+.about-container h3 {
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%   {  opacity: 1; }
+    49%  {  opacity: 1; }
+    60%  {  opacity: 0; }
+    99%  {  opacity: 0; }
+    100% {  opacity: 1; }
+}
+
+/* clean up the menu */
+a[href="/leaderboards"] {
+    display: none !important;
+}
