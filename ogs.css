@@ -1,3 +1,5 @@
+/* yebellz https://yewang.github.io/ProfileCSS/profile.css */
+
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     text-align: center;
@@ -87,4 +89,184 @@ a[href="/leaderboards"] {
 table, th, td {
   border:1px solid black;
   text-align: center;
+}
+
+
+/* Sai https://www.lykahb.com/ogs-profile/style-2025-jan-16.css */
+.sai-container {
+  display: block;
+  position: relative;
+  width: 10em;
+}
+
+.sai-container .flying-sai, .sai-container .sai-ghostly-outline, .sai-container > .backdrop {
+  position: absolute;
+  width: 100%;
+}
+
+.sai-container .sai-ghostly-outline {
+  filter: blur(1px);
+  opacity: 0.5;
+  transform: scale(1.25);
+  transition: transform var(--timing-duration, 0.5s) ease-out, opacity 0.5s ease-out;
+  top: -1.5vw;
+  left: 1vw;
+}
+
+.sai-container:hover .sai-ghostly-outline {
+  --timing-duration: 10s;
+  transform: scale(3);
+  opacity: 0.9;
+}
+
+.sai-container:hover .backdrop {
+  opacity: 1;
+}
+
+.backdrop {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.sai-container:active > .backdrop {
+  visibility: visible;
+}
+
+.sai-container:active .sai-ghostly-outline {
+  opacity: 0.2;
+}
+
+.moving-y-container {
+  animation: yAxis 50s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64) alternate;
+  animation-delay: 3s;
+  animation-direction: var(--moving-animation-direction);
+}
+
+.moving-x-container {
+  position: absolute;
+  top: -10vw;
+  left: -10vw;
+  --moving-animation-direction: normal;
+  animation: xAxis 33s infinite cubic-bezier(0.02, 0.01, 0.21, 1) alternate;
+  animation-delay: 3s;
+  animation-direction: var(--moving-animation-direction);
+}
+
+.moving-x-container.still {
+  top: 20vw;
+  left: 20vw;
+  animation: none;
+}
+.moving-x-container.still .moving-y-container {
+  animation: none;
+}
+
+@keyframes yAxis {
+  0% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(0);
+  }
+  0% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(30vh);
+  }
+  20% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(45vh);
+  }
+  30% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(60vh);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(90vh);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.02, 0.01, 0.21, 1);
+    transform: translateY(50vh);
+  }
+}
+
+@keyframes xAxis {
+  0% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(0);
+  }
+  10% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(30vw);
+  }
+  20% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(15vw);
+  }
+  30% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(60vw);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(10vw);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    transform: translateX(80vw);
+  }
+}
+
+.backdrop {
+  perspective: 500px; /* Adds perspective to enhance 3D effect */
+}
+
+.stone-container {
+  animation: rotate-clockwise 4s linear infinite;
+}
+
+.stone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 150px;
+  --index: 0;
+  transform: translateX(-60px) rotate(calc(var(--index) * 45deg));
+  filter: blur(0.3px); /* Softens edges for hand-drawn look */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Adds an outline like a sketch */
+}
+
+.stone.black {
+  background: radial-gradient(circle, #666 20%, #222 80%, #111 100%);
+  background-size: 120% 120%; /* Adds texture by enlarging gradient */
+  background-position: center;
+}
+
+.stone.white {
+  background: radial-gradient(circle, #fefefe 20%, #eee 80%, #ddd 100%);
+  background-size: 120% 120%;
+  background-position: center;
+  animation: rotate-clockwise 3s linear infinite;
+}
+
+.stone:nth-child(1) {
+  --index: 1;
+}
+
+.stone:nth-child(2) {
+  --index: 2;
+}
+
+.stone:nth-child(3) {
+  --index: 3;
+}
+
+@keyframes rotate-clockwise {
+  0% {
+    transform: rotate(0deg) translateX(60px) rotateY(30deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(60px) rotateY(30deg);
+  }
 }
